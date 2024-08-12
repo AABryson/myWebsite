@@ -1,0 +1,213 @@
+.containerPapers {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 4000px;
+    width: 100%;
+}
+
+.topHalfPapers {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background-image: url(https://media.licdn.com/dms/image/C5612AQFER5kpeqXF1A/article-cover_image-shrink_720_1280/0/1577530023155?e=2147483647&v=beta&t=YsQBIbm074-XTWf437alsMkgmxRDz_889SuXviT7FTs);
+    background-size: cover;
+    background-position: right center;
+    filter: contrast(1.5) grayscale(.7);
+}
+
+.topHalfPapers::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    filter: opacity(.9);
+}
+
+.title {
+    display: flex;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titleText {
+    font-size: 100px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-family: "Marcellus" serif;
+    filter: brightness(20)
+}
+
+.bottomHalfPapers {
+    display: flex;
+    flex-direction: column;
+    height: 4000px;
+    width: 100%;
+    background-color: #d3cec5;
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    font-weight: 100;
+    font-family: "Marcellus" serif;
+    letter-spacing: 3px;
+    font-size: 5vw;
+    height: 8vw;
+    margin-top: 10px;
+    margin-bottom: 0;
+    /* margin-bottom: 5px; */
+}
+
+.paperRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-size:cover; 
+    height:'20%'; 
+    background-position:'30% 50%';
+    row-gap:10px;
+}
+
+.armchairImage {
+    display: flex;
+    flex-direction: row;
+    min-height: 35vw;
+    width: 100%;
+    /* background-image: url(https://www.albanypark.com/cdn/shop/collections/Armchairs_PLP.jpg?v=1712779557); */
+    background-image: url(https://media.sofa.com/thumbor/unsafe/https%3A%2F%2Fmedia.sofa.com%2Fmedias%2Ffabric-armchair.jpg%3Fcontext%3DbWFzdGVyfHJvb3R8ODIxMTI0fGltYWdlL2pwZWd8aDM4L2gwYS84OTYzMTIwMjAxNzU4LmpwZ3wyOTg2ZGZjNTBkODliZDRkNTdkNDNjMWE3YjE3Yzk2ZDIxYWNkYzczYTAxMGMwNDBmODRkZmZmNmE3ZmRiZGFh);
+    background-size: cover;
+    background-position: top;
+    /* overflow: hidden; */
+    margin-top: 10px;
+    /* background-image: url('https://www.building-pros.net/wp-content/uploads/2021/05/stepwell-scaled.jpg'); */
+    filter: contrast(1.8) grayscale(.4) opacity(.8);
+    justify-content: start;
+   
+    /* box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px; */
+    
+}
+
+.amrchairImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 3);
+    
+}
+
+.dissTitle { 
+    font-size: 50px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, .2); */
+    padding: 50px;
+    align-content: center;
+}
+
+.dissSubtitle {
+    font-size:30px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    text-align: center;
+
+    /* background-color: rgba(0, 0, 0, .2); */
+    padding: 10px;
+    align-content: center;
+
+}
+
+
+
+.rowBox {
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+    width: 40%;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    margin: 10px;
+    /* background-image: url('https://www.building-pros.net/wp-content/uploads/2021/05/stepwell-scaled.jpg'); */
+    filter: contrast(1.4) grayscale(.5);
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+}
+
+.rowBox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    filter: opacity(.8)
+}
+    
+.textBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    filter: brightness(20);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-size-adjust: none;
+    overflow: hidden;
+    color: white;
+    font-size: 1.8vw;
+    border-width: 3px;
+    border-color: white;
+    border-style: double;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1; 
+    text-align: center;
+}
+
+/* .row12Box {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 40%;
+    position: relative;
+    background-size: cover;
+    background-image: url('https://www.wheaton.edu/media/christ-at-the-core/Augustine.jpg');
+    filter: contrast(1.4) grayscale(.5);
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+} */
+
+
+
+
+
+
