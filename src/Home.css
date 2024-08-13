@@ -3,7 +3,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    height: 1200px;
+    height: 100vh;
     width: 100%;
 }
 
@@ -16,9 +16,8 @@
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.3); 
-  
-    height: 100%;
-    width: 50%;  
+    height: 100vh;
+    width: 50vw;  
     filter: contrast(200%) grayscale(.8); 
     padding: 0; 
     margin: 0;
@@ -40,11 +39,9 @@
     background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHUyMzQ0NTMxLWltYWdlLWt3dnk3bndtLmpwZw.jpg);
     background-size: cover;
     opacity: .8;
-
     filter: contrast(200%) grayscale(.9);
-    height: 100%;
-
-    width: 50%;
+    height: 100vh;
+    width: 50vw;
     padding: 0;
     margin: 0;
 }
@@ -63,32 +60,33 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    
 }
 
 .banner {
     display: flex;
-    /* position: fixed; */
-    top: 0%; /* Adjust the vertical position */
-    height: 75px;
-    left: 0;
-    right: 0;
-    width: 100%;
+    top: 0%; 
+    /* Adjust the vertical position */
+    height: 10vh;
+    /* left: 0;
+    right: 0; */
+    width: 100vw;
+    margin: 0px;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: white;
     text-align: center;
-    padding: 20px 0;
+    /* padding: 0; */
     /* transform: translateY(-50%);  */
     /* Center the banner vertically */
     align-items: center;
     justify-content: center;
     z-index: 1000;
-
 }
 
 .name {
-    font-size: 70px;
+    font-size: 5vw;
     margin: 0;
     font-family: garamond;
     font-weight: 300;
@@ -102,8 +100,8 @@
     overflow: hidden;
     display: flex;
     /* margin-top: 75px; */
-    height: 380px;
-    width: 100%;
+    height: 35vh;
+    width: 100vw;
     padding: 0;
     justify-content: center;
     align-items: center;
@@ -124,6 +122,7 @@
 .introductionText {
     /*when had display flex, didn't appear in center **/
     position: relative;
+    box-sizing: border-box;
     z-index: 2;
     background: inherit; /* Add this line */
     /* padding: 20px; */
@@ -133,18 +132,13 @@
     font-style: normal;
     /* font-variation-settings:
         "wdth" 100; */
-    
-      
-    font-size: 30px;
-    
+    font-size: 2.5vw;
     color: white;
     text-align: justify;
     opacity: 100%;
-    width: 80%;
-    margin-right: 0;
+    width: 80vw;
+    /* margin-right: 0; */
     isolation: isolate;
-   
-    
 }
 
 .philosophyBox {
@@ -153,19 +147,16 @@
     /* flex-wrap: wrap; */
     position: absolute;
     justify-content: space-around;
-    top: 60%;
+    top: 70%;
     left: 50%;
     z-index: 2;
     transform: translate(-50%, -50%);
-    width: 100%;
-    height: 400px;
-    filter: brightness(1.2); 
-    
+    width: 100vw;
+    height: 40vh;
+    filter: brightness(1.2);  
 }
 
-    
-
-.lecturesBox {
+.fourcatBox {
     position: relative;
     background-color: #242e37;
     text-decoration: none;
@@ -174,19 +165,17 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    width: 20%;
-    height: 100%;
-    
-
+    width: 20vw;
+    max-height: 30vh;
 }
 
-.lecturesText {
+.fourcatText {
     display: flex;
     width: 90%;
     color: white;
     justify-content: start;
     text-align: start;
-    font-size: 30px;
+    font-size: 2.5vw;
     font-weight: 200;
     height: 10%;
     line-height: .9;
@@ -197,7 +186,7 @@
     padding-top: 15px; 
 }
 
-.lecturesText::before {
+.fourcatText::before {
     content: "";
     position: absolute;
     top: 0;
@@ -206,8 +195,8 @@
     height: 2px;
     background-color: white;
 }
-.lecturesImage {
-    background-image: url(https://images.unsplash.com/photo-1703680968885-22659eb00165?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxlY3R1cmUlMjBoYWxsfGVufDB8fDB8fHww);
+
+.fourcatImage {
     background-size: cover;
     background-position: center;
     display: flex;
@@ -217,7 +206,7 @@
     filter: contrast(1.2) grayscale(.9) brightness(1.2);
 }
 
-.papersBox {
+/* .papersBox {
     position: relative;
     background-color: #242e37;
     text-decoration: none;
@@ -266,9 +255,9 @@
     width: 100%;
     opacity: .9;
     filter: contrast(.8) grayscale(.5) brightness(1);
-}
+} */
 
-.projectsBox {
+/* .projectsBox {
     position: relative;
     background-color: #242e37;
     text-decoration: none;
@@ -368,4 +357,4 @@
     width: 100%;
     opacity: .9;
     filter: contrast(.8) grayscale(.7) brightness(1);
-}
+} */

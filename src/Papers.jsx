@@ -8,7 +8,7 @@ function Papers () {
         <div className='containerPapers'>
             <div className='topHalfPapers'>
                 <div className='title'>
-                    <h1 className='titleText'>Papers</h1>
+                    <h1 className='papertitleText'>Papers</h1>
                 </div>
             </div>
             <div className='bottomHalfPapers'>

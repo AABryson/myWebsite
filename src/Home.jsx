@@ -5,8 +5,6 @@ import './Home.css'
 
 function Home () {
 
-
-
     return (
         <div className='container'>
             
@@ -29,43 +27,37 @@ function Home () {
                 </div>
                 
                 <div className='philosophyBox'>
-                    <Link to='/Lectures' className='lecturesBox'>
-                            <div className='lecturesText'>Lectures
+                    <Link to='/Lectures' className='fourcatBox'>
+                            <div className='fourcatText'>Lectures
                             </div>
 
-                            <div className='lecturesImage'></div>
+                            <div className='fourcatImage' style={{backgroundImage: "url('https://images.unsplash.com/photo-1703680968885-22659eb00165?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxlY3R1cmUlMjBoYWxsfGVufDB8fDB8fHww')"}}></div>
                     </Link>
 
-                    <Link to='/Papers' className='papersBox'>
-                            <h1 className='papersText'>
+                    <Link to='/Papers' className='fourcatBox'>
+                            <h1 className='fourcatText'>
                                 Papers
                             </h1>
-                            <div className='papersImage'></div>
+                            <div className='fourcatImage' style={{backgroundImage:"url('https://www.sofo.org.uk/wp-content/uploads/2017/02/research.jpg')", filter: 'brightness(1.1) grayscale(.5)'}}></div>
                     </Link>
 
-                    <Link to='/Projects' className='projectsBox'>
-                        <h1 className='projectsText'>
+                    <Link to='/Projects' className='fourcatBox'>
+                        <h1 className='fourcatText'>
                             Projects
                         </h1>
-                        <div className='projectsImage'></div>
+                        <div className='fourcatImage' style={{backgroundImage:"url('https://dataconomy.com/wp-content/uploads/2022/03/server-computer.jpg')"}}></div>
                     </Link>
 
-                    <Link to='/Courses' className='coursesBox'>
-                        <h1 className='coursesText'>
+                    <Link to='/Courses' className='fourcatBox'>
+                        <h1 className='fourcatText'>
                             Courses
                         </h1>
-                        <div className='coursesImage'></div>
-                     
+                        <div className='fourcatImage' style={{backgroundImage:"url('https://pbs.twimg.com/media/F0o3nS9WIAEsAia.jpg')"}}></div>
                     </Link>
                 </div>
-
             </div>
         </div>
-
-
     )
-
-
 }
 
 export default Home

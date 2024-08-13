@@ -19,30 +19,37 @@ function Lectures () {
                     <h1 className='titleText'>Lectures</h1>
                 </div>
                 <div className='subjects'>
-                    <div className='ethicsCont'><a href='#ethicsSect' style={{textDecoration:'none'}}>
-                            <div className='ethicsText'> Ethics</div>
+                    <div className='subjectsCont'>
+                        <a href='#ethicsSect' style={{textDecoration:'none'}}>
+                            <div className='subjectsText'> Ethics</div>
                         </a>
                     </div>
-                    <div className='logicCont'>
+                    <div className='subjectsCont'>
                         <a href='#logicSect' style={{textDecoration:'none'}}>
-                            <div className='logicText'>Logic</div>
+                            <div className='subjectsText'>Logic</div>
                         </a>
                     </div>
-                    <div className='ancientCont'>
-                        <div className='ancientText'>Ancient 
-                        <br></br>
-                        Philosophy</div>
+                    <div className='subjectsCont'>
+                        <a href='#ancientSect' style={{textDecoration:'none'}}>
+                            <div className='subjectsText' style={{textAlign: 'center'}}>Ancient 
+                            <br></br>
+                            Philosophy</div>
+                        </a>
                     </div>
 
-                    <div className='medievalCont'>
-                        <div className='medievalText'>Medieval 
+                    <div className='subjectsCont'>
+                    <a href='#medievaltSect' style={{textDecoration:'none'}}>
+                        <div className='subjectsText' style={{textAlign: 'center'}}>Medieval 
                         <br>
                         </br>Philosophy</div>
+                    </a>
                     </div>
-                    <div className='modernCont'>
-                        <div className='modernText'>Modern
-                        <br>
-                        </br>Philosophy</div>
+                    <div className='subjectsCont'>
+                        <a href='#modernSect' style={{textDecoration:'none'}}>
+                            <div className='subjectsText' style={{textAlign: 'center'}}>Modern
+                            <br>
+                            </br>Philosophy</div>
+                        </a>
                     </div>
                 </div>  
             </div>
@@ -70,7 +77,7 @@ function Lectures () {
                         <div className='subjPicture'></div>
                         <div className='topicTitle'>Subjectivism
                             <a href='https://www.youtube.com/playlist?list=PLtVBlr9u2bkrQE5Tuf56lSt7RO-9MQ83m' target='_blank' style={{textDecoration:'none'}}>
-                                <div className='subCategory' style={{width:'350px'}}>Hume's Moral Subjectivism
+                                <div className='subCategory' style={{width:'25vmax'}}>Hume's Moral Subjectivism
                                 </div>
                             </a>
 
@@ -120,7 +127,10 @@ function Lectures () {
                     <div className='topicRow'>
                         <div className='utilPicture'></div>
                         <div className='topicTitle'>Utilitarianism
-                            <div className='subCategory'>Mill's Utilitarianism</div>
+                            <a href='https://www.youtube.com/playlist?list=PLtVBlr9u2bkptjicb0XdWjVaK4RdfUOV-' target='_blank' style={{textDecoration:'none'}} >
+                                <div className='subCategory' >Mill's Utilitarianism</div>
+                            </a>
+
                             <a href="https://www.youtube.com/playlist?list=PLtVBlr9u2bkoi_3STwBQxEoU2qrGm0izZ" target='_blank' style={{textDecoration:'none'}}>
                                 <div 
                                 className='subCategory'>General</div>
@@ -218,7 +228,7 @@ function Lectures () {
                     </div>
                 </div>
 
-                <div className='subjectSect' id='ancientSect'>
+                <div className='subjectSect' id='medievalSect'>
                     <div className='sectionTitleRow'>
                             <div className='leftSectionLine'></div>
                             <div className='sectionTitle'>Medieval<br></br> Philosophy</div>
@@ -233,14 +243,12 @@ function Lectures () {
                     <div className='betweenRow'>
                         <div className='betweenBox'></div>
                     </div>
-
-                    <div className='topicRow'>
-                        <div className='boethiusPicture'></div>
-                            <div className='topicTitle'>Boethius Consolation of Philosophy
+                    <a href='https://www.youtube.com/playlist?list=PLtVBlr9u2bkqRY4AVuraK2haAQ8D58fUK' className='topicRow' target='_blank'>
+                            <div className='boethiusPicture'></div>
+                                <div className='topicTitle'>Boethius Consolation of Philosophy
                             </div>
+                    </a>
                     
-                    </div>
-                
 
                     <div className='betweenRow'>
                         <div className='betweenBox'></div>
@@ -272,12 +280,14 @@ function Lectures () {
                     <div className='betweenRow'>
                         <div className='betweenBox'></div>
                     </div>
-                   
-                    <div className='topicRow'>
-                        <div className='millPicture'></div>
-                        <div className='topicTitle'>Mill's Utilitarianism
+                    <a href='https://www.youtube.com/playlist?list=PLtVBlr9u2bkptjicb0XdWjVaK4RdfUOV-' target='_blank' style={{textDecoration:'none'}} >
+
+                        <div className='topicRow'>
+                            <div className='millPicture'></div>
+                            <div className='topicTitle'>Mill's Utilitarianism
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <div className='betweenRow'>
                         <div className='betweenBox'></div>
                     </div>
