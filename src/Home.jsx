@@ -19,7 +19,7 @@ function Home () {
             <div className='contentContainer'>
                 
 
-                <div className='banner'>
+                <div className='homebanner'>
                     <h1 className='name'>Anthony Bryson</h1>
                 </div>
 

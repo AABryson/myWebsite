@@ -65,7 +65,7 @@
     
 }
 
-.banner {
+.homebanner {
     display: flex;
     top: 0%; 
     /* Adjust the vertical position */
@@ -149,7 +149,7 @@
     justify-content: space-around;
     gap: 3%;
     overflow: hidden;
-    margin-top: 60vmax;
+    margin-top: 70vmax;
     /* top: 70%; */
     left: 50%;
     z-index: 0;

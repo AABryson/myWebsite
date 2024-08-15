@@ -31,7 +31,7 @@
 
 .title {
     display: flex;
-    height: 350px;
+    height: 550px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -58,14 +58,35 @@
 }
 
 .banner {
-    font-weight: 100;
+        display: flex;
+        top: 0%; 
+        font-weight: 100;
+        width: 100vw;
+        margin: 0px !important;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        color: white;
+        text-align: center;
+        /* padding: 0; */
+        /* transform: translateY(-50%);  */
+        /* Center the banner vertically */
+        align-items: center;
+        justify-content: center;
+        font-family: "Marcellus" serif;
+        letter-spacing: 3px;
+        font-size: 5vw;
+        height: 8vw;
+        margin-top: 10px !important;
+        margin-bottom: 10px;
+    
+    
+    /* margin-bottom: 5px; */
+    /* 
     font-family: "Marcellus" serif;
     letter-spacing: 3px;
     font-size: 5vw;
     height: 8vw;
-    margin-top:10px !important;
-    margin-bottom: 0;
-    /* margin-bottom: 5px; */
+    margin-top: 10px;
+    margin-bottom: 0; */
 }
 
 .paperRow {
@@ -85,7 +106,7 @@
 .armchairImage {
     display: flex;
     flex-direction: row;
-    height: 500px;
+    height: 35vmax;
     width: 100%;
     background-image: url(https://media.sofa.com/thumbor/unsafe/https%3A%2F%2Fmedia.sofa.com%2Fmedias%2Ffabric-armchair.jpg%3Fcontext%3DbWFzdGVyfHJvb3R8ODIxMTI0fGltYWdlL2pwZWd8aDM4L2gwYS84OTYzMTIwMjAxNzU4LmpwZ3wyOTg2ZGZjNTBkODliZDRkNTdkNDNjMWE3YjE3Yzk2ZDIxYWNkYzczYTAxMGMwNDBmODRkZmZmNmE3ZmRiZGFh);
     background-size: cover;
@@ -113,7 +134,7 @@
 
 
 .dissTitle { 
-    font-size: 50px;
+    font-size: 4vw;
     color: black;
     font-weight: 500;
     letter-spacing: 5px;
@@ -127,7 +148,7 @@
 }
 
 .dissSubtitle {
-    font-size:30px;
+    font-size: 2.5vw;
     color: black;
     font-weight: 500;
     letter-spacing: 5px;
@@ -144,11 +165,12 @@
 .corneaImage {
     display: flex;
     flex-direction: row;
-    min-height: 15%;
+
+    height: 35vmax;
     width: 100%;
     background-image: url(https://think.kera.org/wp-content/uploads/2020/04/weird-800x500.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: 20% 70%;
     margin-top: 10px;
     filter: contrast(1.8) grayscale(.4) opacity(.8);
     justify-content: center;
@@ -168,13 +190,14 @@
 }
 
 .corneaTitle {
-    font-size: 50px;
+    font-size: 4vw;
     color: black;
     font-weight: 500;
     letter-spacing: 5px;
     font-family: "Open Sans", sans-serif;
     width: 100%;
     height: 100%;
+    margin-top: 5%;
    
     text-align: center;
     /* padding: 50px; */
