@@ -10,7 +10,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 700px;
     width: 100%;
     background-image: url(https://media.licdn.com/dms/image/C5612AQFER5kpeqXF1A/article-cover_image-shrink_720_1280/0/1577530023155?e=2147483647&v=beta&t=YsQBIbm074-XTWf437alsMkgmxRDz_889SuXviT7FTs);
     background-size: cover;
@@ -63,7 +63,7 @@
     letter-spacing: 3px;
     font-size: 5vw;
     height: 8vw;
-    margin-top: 10px;
+    margin-top:10px !important;
     margin-bottom: 0;
     /* margin-bottom: 5px; */
 }
