@@ -21,6 +21,14 @@ function Papers () {
 
                     </div>
                 </a>
+                <h1 className='banner'>Thesis</h1>
+                {/* <a href='https://www.dropbox.com/scl/fi/kzfi2alseuabf8y0ccgxg/The-View-from-the-Armchair.doc?rlkey=3b5ke52fttp1nw1rg07dcrsir&st=eef50eds&dl=0' style={{textDecoration:'none'}}> */}
+                    <div className='corneaImage'>
+                        <h1 className='corneaTitle'>Helping CORNEA Fit In
+                        </h1>
+
+                    </div>
+                {/* </a> */}
                 <h1 className='banner'>Philosophical Theology</h1>
                 <div className='paperRow'>
                     <div className='rowBox' style={{backgroundImage: "url('https://www.thoughtco.com/thmb/6A-nCc0vxM13Ggt2cOH7v43LhxM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-960773850-85f50747071140b7bdc10eaf65fd55d8.jpg')", backgroundPosition:'center'}}>

@@ -17,6 +17,7 @@ function Home () {
             </div>
             
             <div className='contentContainer'>
+                
 
                 <div className='banner'>
                     <h1 className='name'>Anthony Bryson</h1>
