@@ -29,6 +29,42 @@
     filter: opacity(.9);
 }
 
+.lecturesnavbar {
+    display: flex;
+    height: 5vmax;
+    /* background-color: #252424; */
+    background-color: #242424;
+    width: 100vmax;
+    position: fixed;
+    z-index: 2;
+    gap: 3%;
+    align-items: center;
+   
+}
+
+.lecturesnavbarContainer {
+    display: flex;
+    width: 100vmax;
+    /* height: 5vmax; */
+    /* margin-right: 5%; */
+    text-decoration: none;
+    margin-bottom: 0px;
+    font-family: "Marcellus" serif;
+    align-items: center;
+    
+}
+
+.lecturesnavItem {
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: "Marcellus" serif;
+    letter-spacing: 4px;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+
 .title {
     display: flex;
     height: 100%;

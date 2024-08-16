@@ -18,7 +18,19 @@ function Home () {
             
             <div className='contentContainer'>
                 
-
+                {/*started adding nav bar here **/}
+                <div className='homenavbar'>
+                    <div className='homenavbarContainer'>
+                        <h5 className='homenavItem'>
+                            <Link to='/Home' className='homenavItem'>Home</Link>
+                            <Link to='/Lectures' className='homenavItem'>Lectures</Link>
+                            <Link to='/Papers' className='homenavItem'>Papers</Link>
+                            <Link to='/Projects' className='homenavItem'>Projects</Link>
+                            <Link to='/Courses' className='homenavItem'>Courses</Link>
+                            <Link to='/Contact' className='homenavItem'>Contact</Link>
+                        </h5>
+                    </div>
+                </div>
                 <div className='homebanner'>
                     <h1 className='name'>Anthony Bryson</h1>
                 </div>

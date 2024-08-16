@@ -14,7 +14,21 @@ function Lectures () {
 
     return (
         <div className='containerLectures'>
+            <div className='lecturesnavbar'>
+                <div className='lecturesnavbarContainer'>
+                    <h5 className='lecturesnavItem'>
+                        <Link to='/' className='lecturesnavItem'>Home</Link>
+                        <Link to='/Lectures' className='lecturesnavItem'>Lectures</Link>
+                        <Link to='/Papers' className='lecturesnavItem'>Papers</Link>
+                        <Link to='/Projects' className='lecturesnavItem'>Projects</Link>
+                        <Link to='/Courses' className='lecturesnavItem'>Courses</Link>
+                        <Link to='/Contact' className='lecturesnavItem'>Contact</Link>
+                    </h5>
+                </div>
+            </div>
             <div className='topHalf'>
+                
+
                 <div className='title'>
                     <h1 className='titleText'>Lectures</h1>
                 </div>

@@ -1,19 +1,34 @@
-import React from 'react'
+// import React from 'react'
+// import './Navbar.css'
 
 
-function Navbar () {
-
-
-
-    return (
-        <div ></div>
+// function Navbar () {
 
 
 
+//     return (
+//         <div className='navContainer'>
+//             <div className='navtextContainer'>
+//                 <h5 className='navItem'>Home</h5>
+//                 <h5 className='navItem'>Lectures</h5>
 
-    )
 
 
-}
 
-export default Navbar
+
+//             </div>
+
+
+
+
+//         </div>
+
+
+
+
+//     )
+
+
+// }
+
+// export default Navbar

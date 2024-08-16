@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {Route, Routes, BrowserRouter} from 'react-router-dom'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 import Home  from './Home'
 import Lectures from './Lectures'
 import Papers from './Papers'
@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         
           
-          <Navbar />
+          {/* <Navbar /> */}
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/Lectures' element={<Lectures />} />

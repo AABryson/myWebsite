@@ -65,22 +65,58 @@
     
 }
 
+.homenavbar {
+    display: flex;
+    height: 5vmax;
+    /* background-color: #252424; */
+    background-color: #242424;
+    width: 100vmax;
+    position: fixed;
+    z-index: 2;
+    gap: 3%;
+    align-items: center;
+   
+}
+
+.homenavbarContainer {
+    display: flex;
+    width: 100vmax;
+    /* height: 5vmax; */
+    /* margin-right: 5%; */
+    text-decoration: none;
+    margin-bottom: 0px;
+    font-family: "Marcellus" serif;
+    align-items: center;
+    
+}
+
+.homenavItem {
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: "Marcellus" serif;
+    letter-spacing: 4px;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+
 .homebanner {
     display: flex;
-    top: 0%; 
+    /* top: 0%;  */
     /* Adjust the vertical position */
     /* height: 10vh; */
     /* left: 0;
     right: 0; */
     width: 100vw;
-    margin: 0px !important;
+    margin-top: 5vmax;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: white;
     text-align: center;
     /* padding: 0; */
     /* transform: translateY(-50%);  */
     /* Center the banner vertically */
-    align-items: center;
+    align-items: end;
     justify-content: center;
     /* z-index: 1000; */
 }
@@ -90,7 +126,7 @@
     /* margin: 0; */
     font-family: garamond;
     font-weight: 300;
-    letter-spacing: 3px;
+    letter-spacing: 8px;
 }
 
 .introduction {
@@ -155,7 +191,7 @@
     z-index: 0;
     transform: translate(-50%, -50%);
     width: 100vw;
-    height: 50vmax;
+    height: 40vmax;
     filter: brightness(1.2);  
 }
 
