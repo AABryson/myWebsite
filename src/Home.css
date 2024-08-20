@@ -98,6 +98,8 @@
     letter-spacing: 4px;
     text-decoration: none;
     margin-left: 5%;
+    margin-bottom: 0px;
+    margin-top: 0px !important;
 }
 
 

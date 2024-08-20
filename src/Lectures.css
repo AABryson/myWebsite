@@ -10,7 +10,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 50vmax;
+    height: 60vmax;
     width: 100vmax;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pioneer_Park_Stone_Work_Valley_City%2C_ND_Betsy_Armour.jpg/2560px-Pioneer_Park_Stone_Work_Valley_City%2C_ND_Betsy_Armour.jpg);
     background-size: cover;
@@ -62,8 +62,10 @@
     letter-spacing: 4px;
     text-decoration: none;
     margin-left: 5%;
+    margin-bottom: 0px;
+    margin-top: 0px !important;
+    
 }
-
 
 .title {
     display: flex;
@@ -107,6 +109,7 @@ border-color: white;
 align-items: center;
 justify-content: center;
 backdrop-filter: blur(5px);
+margin-bottom: 10%;
 }
 
 .subjectsText {

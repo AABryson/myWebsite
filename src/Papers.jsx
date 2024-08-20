@@ -8,17 +8,17 @@ function Papers () {
     return (
         <div className='containerPapers'>
             <div className='papersnavbar'>
-                    <div className='papersnavbartextContainer'>
-                        <h5 className='papersnavItem'>
-                            <Link to='/' className='papersnavItem'>Home</Link>
-                            <Link to='/Lectures' className='papersnavItem'>Lectures</Link>
-                            <Link to='/Papers' className='papersnavItem'>Papers</Link>
-                            <Link to='/Projects' className='papersnavItem'>Projects</Link>
-                            <Link to='/Courses' className='papersnavItem'>Courses</Link>
-                            <Link to='/Contact' className='papersnavItem'>Contact</Link>
-                        </h5>
-                    </div>
+                <div className='papersnavbartextContainer'>
+                    <h5 className='papersnavItem'>
+                        <Link to='/' className='papersnavItem'>Home</Link>
+                        <Link to='/Lectures' className='papersnavItem'>Lectures</Link>
+                        <Link to='/Papers' className='papersnavItem'>Papers</Link>
+                        <Link to='/Projects' className='papersnavItem'>Projects</Link>
+                        <Link to='/Courses' className='papersnavItem'>Courses</Link>
+                        <Link to='/Contact' className='papersnavItem'>Contact</Link>
+                    </h5>
                 </div>
+            </div>
             <div className='topHalfPapers'>
                 <div className='title'>
                     <h1 className='papertitleText'>Papers</h1>
