@@ -82,14 +82,13 @@ function Projects () {
                     <>
                         <p className='projectsBody'>
                             <i>GitHub: </i>
-                            <a href="https://github.com/AABryson/Capstone1Cocktails.git">https://github.com/AABryson/Capstone1Cocktails.git</a>
+                            <a href="hhttps://github.com/AABryson/CapstoneoneStyledDeployed.git">https://github.com/AABryson/CapstoneoneStyledDeployed.git</a>
                         </p>
                     </>
                     <>
                         <p className='projectsBody'>
-                            <a href="https://renderpractice-newdb.onrender.com">
-                            <i>URL: </i> 
-                            https://renderpractice-newdb.onrender.com</a>
+                            <a href="https://capstoneonestyleddeployed.onrender.com">
+                            <i>URL: </i>https://capstoneonestyleddeployed.onrender.com</a>
                         </p>
                     </>
 
