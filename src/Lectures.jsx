@@ -141,7 +141,7 @@ function Lectures () {
                     <div className='topicRow'>
                         <div className='utilPicture'></div>
                         <div className='topicTitle'>Utilitarianism
-                            <a href='https://www.youtube.com/playlist?list=PLtVBlr9u2bkptjicb0XdWjVaK4RdfUOV-' target='_blank' style={{textDecoration:'none'}} >
+                            <a href='https://www.nonamehiding.com/wp-content/uploads/2022/06/shutterstock_361463345.jpg' target='_blank' style={{textDecoration:'none'}} >
                                 <div className='subCategory' >Mill's Utilitarianism</div>
                             </a>
 
