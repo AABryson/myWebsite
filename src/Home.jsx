@@ -20,7 +20,7 @@ function Home () {
                 
                 {/*started adding nav bar here **/}
                 <div className='homenavbar'>
-                    <div className='homenavbarContainer'>
+                    {/* <div className='homenavbarContainer'> */}
                         <h5 className='homenavItem'>
                             <Link to='/Home' className='homenavItem'>Home</Link>
                             <Link to='/Lectures' className='homenavItem'>Lectures</Link>
@@ -29,7 +29,7 @@ function Home () {
                             <Link to='/Courses' className='homenavItem'>Courses</Link>
                             <Link to='/Contact' className='homenavItem'>Contact</Link>
                         </h5>
-                    </div>
+                    {/* </div> */}
                 </div>
                 <div className='homebanner'>
                     <h1 className='name'>Anthony Bryson</h1>

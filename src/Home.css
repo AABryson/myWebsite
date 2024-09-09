@@ -3,7 +3,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    height: 105vmin;
+    height: 105vmax;
     width: 100%;
 }
 
@@ -16,7 +16,7 @@
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.3); 
-    height: 105vmax;
+    height: 100%;
     width: 50vw;  
     filter: contrast(200%) grayscale(.8); 
     padding: 0; 
@@ -40,7 +40,7 @@
     background-size: cover;
     opacity: .8;
     filter: contrast(200%) grayscale(.9);
-    height: 105vmax;
+    height: 100%;
     width: 50vw;
     padding: 0;
     margin: 0;
@@ -60,7 +60,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     
 }
@@ -100,6 +100,7 @@
     margin-left: 5%;
     margin-bottom: 0px;
     margin-top: 0px !important;
+    
 }
 
 
@@ -124,7 +125,7 @@
 }
 
 .name {
-    font-size: 5vw;
+    font-size: 8vmin;
     /* margin: 0; */
     font-family: garamond;
     font-weight: 300;
@@ -132,17 +133,18 @@
 }
 
 .introduction {
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
     display: flex;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* position: relative; */
+    z-index: 1;
+    /* overflow: hidden; */
+    
     /* margin-top: 75px; */
-    height: 25vmax;
+    height: 40v;
     width: 100vw;
     padding: 0;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
    
 }
 
@@ -183,17 +185,17 @@
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
-    position: absolute;
+    /* position: absolute; */
     justify-content: space-around;
-    gap: 3%;
+    /* gap: 3%; */
     overflow: hidden;
-    margin-top: 70vmax;
+    /* margin-top: 70vmax; */
     /* top: 70%; */
-    left: 50%;
+    /* left: 50%; */
     z-index: 0;
-    transform: translate(-50%, -50%);
-    width: 100vw;
-    height: 40vmax;
+    /* transform: translate(-50%, -50%); */
+    width: 100%;
+    height: 25vmax;
     filter: brightness(1.2);  
 }
 
@@ -206,8 +208,8 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    width: 20vmax;
-    height: 35vmax;
+    width: 15vmax;
+    height: 35vmin;
 }
 
 .fourcatText {
