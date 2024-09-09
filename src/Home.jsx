@@ -58,7 +58,7 @@ function Home () {
                         <h1 className='fourcatText'>
                             Projects
                         </h1>
-                        <div className='fourcatImage' style={{backgroundImage:"url('https://dataconomy.com/wp-content/uploads/2022/03/server-computer.jpg')"}}></div>
+                        <div className='fourcatImage' style={{backgroundImage:"url('https://images.pexels.com/photos/860963/pexels-photo-860963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}}></div>
                     </Link>
 
                     <Link to='/Courses' className='fourcatBox'>
