@@ -22,7 +22,7 @@ function Home () {
                 <div className='homenavbar'>
                     {/* <div className='homenavbarContainer'> */}
                         <h5 className='homenavItem'>
-                            <Link to='/Home' className='homenavItem'>Home</Link>
+                            <Link to='/' className='homenavItem'>Home</Link>
                             <Link to='/Lectures' className='homenavItem'>Lectures</Link>
                             <Link to='/Papers' className='homenavItem'>Papers</Link>
                             <Link to='/Projects' className='homenavItem'>Projects</Link>
