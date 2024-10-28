@@ -47,7 +47,7 @@ function Projects () {
                     </>
                     <>
                         <p className='projectsBody'>
-                            <i>GitHub: </i><a href="https://github.com/AABryson/Capstone2GloriousBooks.git">https://github.com/AABryson/Capstone2GloriousBooks.git</a>
+                            <i>GitHub: </i><a href="https://github.com/AABryson/GloriousBooksRevised">https://github.com/AABryson/GloriousBooksRevised</a>
                         </p>
                     </>
                     <>
