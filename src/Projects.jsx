@@ -53,7 +53,7 @@ function Projects () {
                     <>
                         <p className='projectsBody'>
                             <i>URL: </i> 
-                            <a href="https://66a963f58ec79c039d90fc47--gentle-starship-ccb186.netlify.app">https://66a963f58ec79c039d90fc47--gentle-starship-ccb186.netlify.app</a>
+                            <a href="https://gloriousbooks.netlify.app">https://gloriousbooks.netlify.app</a>
                         </p>
                     </>
                 </div>
