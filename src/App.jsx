@@ -1,37 +1,22 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {Route, Routes, BrowserRouter} from 'react-router-dom'
-// import Navbar from './Navbar'
-import Home  from './Home';
-import Lectures from './Lectures';
-import Papers from './Papers';
-import Projects from './Projects';
-import Courses from './Courses';
-import Contact from './Contact';
+import { Home } from './home/Home';
+import { Papers } from './papers/Papers';
+import { Projects } from './projects/Projects';
+import { Courses } from './courses/Courses';
+import { Contact } from './contact/Contact';
+import { Navbar } from './navbar/Navbar';
+import { Lectures } from './lectures/Lectures';
 
-
-
-function App() {
-  
-
-  return (
-    <>
-      <BrowserRouter>
-        
-          
-        {/* <Navbar /> */}
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/Lectures' element={<Lectures />} />
-          <Route path='/Papers' element={<Papers />} />
-          <Route path='/Projects' element={<Projects />} />
-          <Route path='/Courses' element={<Courses />} />
-          <Route path='/Contact' element={<Contact />} />
-        
-        </Routes>
-      </BrowserRouter>
-    </>
-    
-  )
-}
-
-export default App
+export const App = () => 
+  <BrowserRouter>
+    <Navbar />
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/Lectures' element={<Lectures />} />
+      <Route path='/Papers' element={<Papers />} />
+      <Route path='/Projects' element={<Projects />} />
+      <Route path='/Courses' element={<Courses />} />
+      <Route path='/Contact' element={<Contact />} />
+    </Routes>
+  </BrowserRouter>
