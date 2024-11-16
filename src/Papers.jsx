@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import './Papers.css'
 
 function Papers () {
-
-
     return (
         <div className='containerPapers'>
             <div className='papersnavbar'>
@@ -28,20 +26,17 @@ function Papers () {
                 <h1 className='banner'>Dissertation</h1>
                 <a href='https://www.dropbox.com/scl/fi/kzfi2alseuabf8y0ccgxg/The-View-from-the-Armchair.doc?rlkey=3b5ke52fttp1nw1rg07dcrsir&st=eef50eds&dl=0' style={{textDecoration:'none'}}>
                     <div className='armchairImage'>
-                        <h1 className='dissTitle'>The View from the Armchair
-                            <h3 className='dissSubtitle'>A Defense of Traditional Philosophy</h3>
+                        <h1 className='dissTitle'>
+                            The View from the Armchair
+                            <div className='dissSubtitle'>A Defense of Traditional Philosophy</div>
                         </h1>
 
                     </div>
                 </a>
                 <h1 className='banner'>Thesis</h1>
-                {/* <a href='https://www.dropbox.com/scl/fi/kzfi2alseuabf8y0ccgxg/The-View-from-the-Armchair.doc?rlkey=3b5ke52fttp1nw1rg07dcrsir&st=eef50eds&dl=0' style={{textDecoration:'none'}}> */}
                     <div className='corneaImage'>
-                        <h1 className='corneaTitle'>Helping CORNEA Fit In
-                        </h1>
-
+                        <h1 className='corneaTitle'>Helping CORNEA Fit In</h1>
                     </div>
-                {/* </a> */}
                 <h1 className='banner'>Philosophical Theology</h1>
                 <div className='paperRow'>
                     <div className='rowBox' style={{backgroundImage: "url('https://www.thoughtco.com/thmb/6A-nCc0vxM13Ggt2cOH7v43LhxM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-960773850-85f50747071140b7bdc10eaf65fd55d8.jpg')", backgroundPosition:'center'}}>
@@ -72,15 +67,8 @@ function Papers () {
                             <h1 className='textBox'>Contra Brown on the Trinity</h1>
                         </a>
                     </div>
-                    
-
-                    
                 </div>
-
-
-           
                 <h1 className='banner'>Augustine</h1>
-
                 <div className='paperRow'>
                     <div className='rowBox' style={{backgroundImage: "url('https://www.worldhistory.org/img/c/p/1200x900/5333.jpg')"}}>
                         <a href='https://drive.google.com/file/d/1lmbDE6wGWpMo-zU3S2k_W2XujYDrfTvz/view?usp=sharing' target='_blank' style={{textDecoration:'none'}}>
@@ -118,32 +106,23 @@ function Papers () {
                     </a>
                     </div>
                 </div>
-
                 <h1 className='banner'>Aquinas</h1>
-
                 <div className='paperRow'>
                     <div className='rowBox' style={{backgroundImage: "url('https://wp.en.aleteia.org/wp-content/uploads/sites/2/2017/04/web-saint-thomas-aquinas-public-domain.jpg')", backgroundPosition: '70% 50%'}}>
                         <a href='https://drive.google.com/file/d/1r2DryiH7Hk3OaqLcT9ugMZ_ytxCgGj_C/view?usp=sharing' target='_blank' style={{textDecoration:'none'}}>
                             <h1 className='textBox'>The Fourth Way</h1>
                         </a>
                     </div>
-                    
-                
-
                     <div className='rowBox' style={{backgroundImage: "url('https://www.catholicnewsagency.com/images/St_Thomas_Aquinas_Credit_Renata_Sedmakova_via_wwwshutterstockcom_CNA.jpg?jpg')", backgroundPosition: 'center'}}>
                         <a href=' https://docs.google.com/document/d/1n6LQhaBiHldkIQo6Qap49l2ABrov3P2g/edit?usp=sharing&ouid=117024519972961587403&rtpof=true&sd=true' target='_blank' style={{textDecoration:'none'}}>
                             <h1 className='textBox'>A Positive Conception of Simplicity</h1>
                         </a>
                     </div>
-                    
                 </div>
-
-
             </div>
         </div>
         
     )
-
 }
 
 export default Papers
