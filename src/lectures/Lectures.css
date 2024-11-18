@@ -81,6 +81,7 @@
     font-weight: 100;
     letter-spacing: 10px;
     font-family: "Marcellus" serif;
+    filter: brightness(20)
 }
 
 .subjects {
@@ -120,6 +121,8 @@ margin-bottom: 10%;
     font-weight: 100;
     /* padding: 10px; */
     text-align: center;
+    filter: brightness(20)
+
 }
 
 .bottomHalf {
