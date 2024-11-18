@@ -1,59 +1,24 @@
 .contactContainer {
   display: flex;
   flex-direction: column;
-  height: 1000px;
-  width: 100%;
-  background-image: url(https://www.minka.at/en/wp-content/themes/yootheme/cache/cf/Wendeltreppe-scaled-1-cf04ce16.jpeg);
+  height: 100vmax;
+  width: 100vmax;
+  background-image: url(https://images.pexels.com/photos/39656/staircase-spiral-architecture-interior-39656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   background-size: cover;
+  background-position: 50% 25%;
   filter: grayscale(.9) opacity(.8) contrast(.7);
 }
 
-.contactnavbar {
-  display: flex;
-  flex-direction: row;
-  height: 5vmax;
-  /* background-color: #252424; */
-  top: 0px;
-  background-color: #242424;
-  width: 100vmax;
-  position: fixed;
-  z-index: 1;
-  gap: 3%;
-  align-items: center; 
-}
-
-.contactbartextContainer {
-  display: flex;
-  width: 100vmax;
-  /* height: 5vmax; */
-  /* margin-right: 5%; */
-  text-decoration: none;
-  font-family: "Marcellus" serif;
-  align-items: center;
-}
-
-.contactnavItem {
-  color: white;
-  font-size: 1.5vw;
-  font-weight: 100;
-  font-family: "Marcellus" serif;
-  letter-spacing: 4px;
-  text-decoration: none;
-  margin-left: 5%;
-  margin-bottom: 0px;
-  align-items: center;
-  margin-top: 0px !important;
-}
 
 
 .contactDetails {
   margin-left: 10%;
   display: flex;
-  position: absolute;
+  /* position: absolute; */
   flex-direction: column;
-  top: 20%;
-  height: 50%;
-  width: 60%;
+  margin-top: 20vmax;
+  height: 30vmax;
+  width: 100%;
   background-color: #b4ab9e;
   filter: opacity(.9);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -61,18 +26,19 @@
 }
 
 .contactH1 {
-  font-size: 50px;
+  font-size: 4vw;
   color: black;
   font-weight: 100;
   text-align: center;
 }
 
 .contactH5 {
-  font-size: 3vh;
+  font-size: 2.5vw;
   color: black;
   font-weight: 100;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 0 !important;
-  align-content: center;
+  /* align-content: center; */
+  text-align: start;
 }
 

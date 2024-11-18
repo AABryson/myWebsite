@@ -1,0 +1,23 @@
+.navContainer {
+    display: flex;
+    height: 80px;
+    background-color: #282323
+
+}
+
+.navtextContainer {
+    display: flex;
+    height: 100%;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.navItem {
+    color: white;
+    font-size: 1.5vmax;
+    font-weight: 400;
+    font-family: "Marcellus" serif;
+    letter-spacing: .3vmax;
+    margin: 1vw;
+    text-decoration: none;
+}

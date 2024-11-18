@@ -1,13 +1,14 @@
 import {Link} from 'react-router-dom';
+import './Navbar.css'
 
 export const Navbar = () => 
   <div className='homenavbar'>
-    <h5 className='homenavItem'>
-      <Link to='/' className='homenavItem'>Home</Link>
-      <Link to='/Lectures' className='homenavItem'>Lectures</Link>
-      <Link to='/Papers' className='homenavItem'>Papers</Link>
-      <Link to='/Projects' className='homenavItem'>Projects</Link>
-      <Link to='/Courses' className='homenavItem'>Courses</Link>
-      <Link to='/Contact' className='homenavItem'>Contact</Link>
+    <h5 className='navtextContainer'>
+      <Link to='/' className='navItem'>Home</Link>
+      <Link to='/Lectures' className='navItem'>Lectures</Link>
+      <Link to='/Papers' className='navItem'>Papers</Link>
+      <Link to='/Projects' className='navItem'>Projects</Link>
+      <Link to='/Courses' className='navItem'>Courses</Link>
+      <Link to='/Contact' className='navItem'>Contact</Link>
     </h5>
   </div>
